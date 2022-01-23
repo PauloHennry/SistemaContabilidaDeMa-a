@@ -22,12 +22,12 @@ while(true){
 qtd = prompt("Quantas unidades de maça deseja: ")
 	//SE MAIOR >= 12 O TOTAL É CALCULADO POR DUZIA;
 	if(qtd >= 12){
-		console.log("O valor total é das maças é de R$:",precoDuzia(),"reais")
+		console.log("O valor total é das maças é de R$:",precoDuzia(),"reais\n")
 	}
 	
 	// SE NÃO ELE VAI CALCULAR POR PREÇO MENOR QUE DUZIA;
 	else{
-		console.log("O valor total é das maças é de R$:", precoSeForMenorADuzia(),"centavos")
+		console.log("O valor total é das maças é de R$:", precoSeForMenorADuzia(),"centavos\n")
 	}
 
 	//FUNCAO QUE FAZ O CALCULO PRECO DA DUZIA;
