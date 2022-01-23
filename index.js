@@ -22,12 +22,12 @@ while(true){
 qtd = prompt("Quantas unidades de maça deseja: ")
 	//SE MAIOR >= 12 O TOTAL É CALCULADO POR DUZIA;
 	if(qtd >= 12){
-		alert("O valor total é das maças é de R$:",precoDuzia(),"reais\n")
+		alert("O valor total das maças é de R$:",precoDuzia(),"reais\n")
 	}
 	
 	// SE NÃO ELE VAI CALCULAR POR PREÇO MENOR QUE DUZIA;
 	else{
-		alert("O valor total é das maças é de R$:", precoSeForMenorADuzia(),"centavos\n")
+		alert("O valor total das maças é de R$:", precoSeForMenorADuzia(),"centavos\n")
 	}
 
 	//FUNCAO QUE FAZ O CALCULO PRECO DA DUZIA;
